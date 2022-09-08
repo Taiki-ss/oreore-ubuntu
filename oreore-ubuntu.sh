@@ -60,6 +60,9 @@ echo "
 # keychain 
 source \$HOME/.keychain/\`hostname\`-sh" >> .bashrc
 
+# return English
+LANG=C xdg-user-dirs-gtk-update
+
 # docker
 sudo apt install -y apt-transport-https ca-certificates curl gnupg lsb-release
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg

@@ -101,4 +101,7 @@ sudo snap install slack --classic
 # Qlipper
 sudo apt install -y qlipper
 
+# CapsLock to Ctrl
+gsettings set org.gnome.desktop.input-sources xkb-options "['ctrl:nocaps']"
+
 echo "設定完了！すべてを反映するには再起動してください。"

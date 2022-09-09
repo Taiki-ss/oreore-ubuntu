@@ -111,4 +111,6 @@ sudo apt install brave-browser
 # CapsLock to Ctrl
 gsettings set org.gnome.desktop.input-sources xkb-options "['ctrl:nocaps']"
 
+gsettings set org.gnome.desktop.interface gtk-key-theme Emacs
+
 echo "設定完了！すべてを反映するには再起動してください。"

@@ -60,6 +60,9 @@ echo "
 # keychain 
 source \$HOME/.keychain/\`hostname\`-sh" >> .bashrc
 
+# ssh-server
+sudo apt install -y openssh-server
+
 # return English
 LANG=C xdg-user-dirs-gtk-update
 

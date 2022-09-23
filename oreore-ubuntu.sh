@@ -54,6 +54,9 @@ password $github_token" > ~/.netrc
 # vim
 sudo apt install vim -y
 
+# termiantor
+sudo apt install terminator
+
 # keychain
 sudo apt install keychain -y
 echo "

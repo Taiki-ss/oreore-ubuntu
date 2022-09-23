@@ -52,7 +52,7 @@ login $github_user
 password $github_token" > ~/.netrc
 
 # vim
-sudo apt install vim -y
+sudo apt install vim neovim -y
 
 # termiantor
 sudo apt install terminator

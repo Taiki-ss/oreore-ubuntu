@@ -29,7 +29,7 @@ function dc(){
 			docker system prune -a;;
 		# 起動
 		*)
-			docker compose up -d --build
+			docker compose up -d
 	esac
 }" > ~/.bash_aliases
 

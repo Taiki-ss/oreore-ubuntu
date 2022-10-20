@@ -27,6 +27,8 @@ function dc(){
 		# ミキプルーン
 		\"prune\")
 			docker system prune -a;;
+		\"build\")
+			docker compose up -d --build;;
 		# 起動
 		*)
 			docker compose up -d

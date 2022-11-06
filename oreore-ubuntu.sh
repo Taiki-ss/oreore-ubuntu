@@ -8,6 +8,13 @@ echo "#!/bin/bash
 alias s='systemctl suspend -i'
 alias vi='vim'
 alias rl='cd \`readlink -f .\`'
+alias gs='git status'
+alias ga='git add'
+alias gcm='git commit -m'
+alias gl='git log'
+alias gb='git branch'
+alias gc='git checkout'
+alias gd='git diff HEAD'
 
 # docker関連
 function dc(){
